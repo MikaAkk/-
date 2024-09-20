@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Infrastructure\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>Infrastructure\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Apartment.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Applying.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{db56f5cc-c62b-4466-87e6-b1f4727d20cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{13d120c5-855f-4597-abb1-a95247bc1fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{52345057-022f-4eff-b1bc-8a1f9e060881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Colors">
+      <UniqueIdentifier>{c66ab338-0b8d-43c5-8810-40af31a7997d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Menu">
+      <UniqueIdentifier>{deddb4de-171a-42f8-8a01-6d347921db34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Infrastructure\Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Palette.h">
+      <Filter>Infrastructure\Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Infrastructure\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Infrastructure\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FKeys.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Apartment.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Applying.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
